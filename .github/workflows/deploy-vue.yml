@@ -1,8 +1,8 @@
-name: deploy vue
+name: Deploy Vue
 on:
   push:
     branches:
-      - prod
+      - master
  
 jobs:
   deploy-app:
